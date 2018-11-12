@@ -1,0 +1,100 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+header {
+	top: 0;
+	background-color: rgb(55, 55, 55);
+}
+
+footer {
+	bottom: 0;
+	background-color: rgb(29, 29, 29);
+}
+
+.text-right {
+  text-align: right;
+  font-size: 10px;
+}
+
+.header-footer {
+	color: rgb(231, 241, 255);
+	position: fixed;
+	width: 100%;
+	font-family: 'Oxygen', sans-serif;
+	text-transform: uppercase;
+	text-shadow: 2px 3px rb(29, 43, 63);
+}
+
+article {
+  font-family: 'Oxygen', sans-serif;
+  margin: 100px 10% 64px 10%;
+}
+
+article > #category > a {
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+article > #category > a:link, article > #category > a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+article > #category > a:hover {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+}
+
+article > section {
+  border-radius: 10px 10px;
+  border: rgb(148, 148, 148) solid thin;
+  width: 330px;
+  display: inline-block;
+  margin: 10px;
+}
+
+article > section:hover {
+  background-color: rgb(230, 230, 230);
+  cursor: hand;
+}
+
+article > section > .content {
+  text-align: left;
+  margin: 0 5% 5% 5%;
+}
+
+article > section > .content > h4, article > section > .content > h3 {
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+article > section > .content > .footer-content {
+  width: 49%;
+  display: inline-block;
+  color: slategray;
+}
+
+article > section > .content > .content-1 {
+  width: 100%;
+  display: flex;
+  color: rgb(134, 134, 134);
+}
+
+article > section > .content > .content-1 > p {
+	margin-top: 25px;
+	width: 27%;
+	text-align: left;
+	font-size: 10px;
+	color: slategray;
+}
+
+article > section > .content > .content-1 > h4 {
+	color: slategray;
+}
+
+
+
+
